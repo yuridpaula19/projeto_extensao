@@ -75,14 +75,14 @@ class _MeusDadosState extends State<MeusDados> {
                           borderRadius: BorderRadius.circular(10),
                           color: Colors.lightGreen,
                         ),
+                        width: double.maxFinite,
+                        height: 35,
                         child: Text(
                           "Editar",
                           style: TextStyle(
                             color: Colors.white,
                           ),
                         ),
-                        width: double.maxFinite,
-                        height: 35,
                       ),
                     )
                   ],

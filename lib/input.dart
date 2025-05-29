@@ -33,7 +33,7 @@ class _InputMeusDadosState extends State<InputMeusDados> {
         Container(
           decoration: BoxDecoration(
               border: Border.all(
-                color: Colors.lightBlue,
+                color: Color.fromARGB(255, 0, 130, 198),
               ),
               borderRadius: BorderRadius.circular(5)),
           child: TextField(

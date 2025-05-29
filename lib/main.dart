@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:projeto_extensao/drawer.dart';
+import 'package:projeto_extensao/editarDados.dart';
 import 'package:projeto_extensao/meusDados.dart';
 
 void main() {
@@ -16,7 +17,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: MeusDados(),
+      home: editarDados(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
